@@ -54,10 +54,9 @@
 							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.1641807004" name="Cross ARM GNU Assembler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler">
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.usepreprocessor.2110651773" name="Use preprocessor" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.usepreprocessor" value="true" valueType="boolean"/>
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.include.paths.2130669119" name="Include paths (-I)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.include.paths" valueType="includePath">
-									<listOptionValue builtIn="false" value="D:/Eclipse_ARM/ARM_Workspace/MotorCTl/include"/>
-									<listOptionValue builtIn="false" value="D:/Eclipse_ARM/ARM_Workspace/MotorCTl/system/include"/>
-									<listOptionValue builtIn="false" value="D:/Eclipse_ARM/ARM_Workspace/MotorCTl/system/include/cmsis"/>
-									<listOptionValue builtIn="false" value="D:/Eclipse_ARM/ARM_Workspace/MotorCTl/system/include/stm32f4-hal"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/MotorCTl/system/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/MotorCTl/system/include/stm32f4-hal}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/MotorCTl/system/include/cmsis}&quot;"/>
 								</option>
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.defs.908841487" name="Defined symbols (-D)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.defs" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="DEBUG"/>

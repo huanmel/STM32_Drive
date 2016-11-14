@@ -1,7 +1,7 @@
 /*
  * application_data.h
  *
- *  Created on: 14 окт. 2016 г.
+ *  Created on: 14 пїЅпїЅпїЅ. 2016 пїЅ.
  *      Author: nafilaretov
  */
 
@@ -23,6 +23,7 @@ struct counter_data
 } counter_data_tag;
 
 typedef struct counter_data counter_t;
+
 
 /*!
  *
