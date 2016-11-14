@@ -10,6 +10,7 @@
 
 uint8_t PrevCommand; //command to PWM at previous step.
 uint8_t TRSHLD_min=(int)(10*255/100);
+
 /*!
  * @brief Parse command from UART and make PWM duty through threshold of the counter
  * @param[in]  APPLICATION_DATA.external_command  global variable
